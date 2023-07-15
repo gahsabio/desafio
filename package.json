@@ -14,8 +14,10 @@
     "bcrypt": "^5.0.1",
     "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.19.0",
+    "csv-parser": "^3.0.0",
     "express": "^4.17.1",
     "express-validator": "^6.13.0",
+    "fs": "^0.0.1-security",
     "jaro-winkler": "^0.2.8",
     "jwt-simple": "^0.5.6",
     "knex": "^0.95.11",
@@ -25,8 +27,15 @@
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
     "sanitize": "^2.1.0",
     "sequelize": "^6.7.0",
-    "swagger-ui-express": "^4.5.0"
+    "swagger-ui-express": "^4.5.0",
+    "tape": "^5.6.1"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "supertest": "^6.3.2"
   }
 }

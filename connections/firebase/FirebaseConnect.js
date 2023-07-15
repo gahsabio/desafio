@@ -1,6 +1,6 @@
 /**
- * @author: Helen de Freitas Santos
- * @date: 07/07/2018
+ * @author: Gabriel de Freitas Santos Sábio
+ * @date: 12/07/2023
  * @desc: establish Mysql Connection.
 */
 // establish Firebase Connection.
@@ -9,11 +9,11 @@
 function FirebaseConnect() {
 
   this.firebase = require("firebase-admin");
-  this.serviceAccount = require("./serviceAccountKey.json");
+  this.serviceAccount = require("xxxxxx");
 
   this.firebase.initializeApp({
     credential: this.firebase.credential.cert(this.serviceAccount),
-    databaseURL: "https://massive-cocoa-210221.firebaseio.com"
+    databaseURL: "xxxxxx"
   });
 
 }

@@ -1,6 +1,6 @@
 /**
- * @author: Helen de Freitas Santos
- * @date: 07/07/2018
+ * @author: Gabriel de Freitas Santos Sábio
+ * @date: 12/07/2023
  * @desc: methods for fetching mysql data
  * Extraído de https://lorenstewart.me/2016/09/12/sequelize-table-associations-joins/
 */

@@ -1,3 +1,0 @@
-modificar o controller das tabelas que necessitam de dados que não são enviados com a requisição
-desenvolver localização por token
-arrumar localização por pergunta inteira
