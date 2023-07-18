@@ -8,7 +8,7 @@
 
 function FirebaseConnect() {
 
-  this.firebase = require("firebase-admin");
+  this.firebase = require("xxxxxx");
   this.serviceAccount = require("xxxxxx");
 
   this.firebase.initializeApp({
